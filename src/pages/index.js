@@ -14,17 +14,16 @@ const Index = () => {
       <Seo title="Home" />
       <Layout>
         <BannerModule
-          title="Welcome to Barcadia"
-          subTitle="Using a combination of Gatsby and Contentful, Barcadia is ready to deploy and simple to use."
+          title="Welcome to Nigerians.ca"
+          subTitle="Dynamic database of all things Nigerian in Canada"
         />
         <BasicTextModule
-          title="A super-fast theme that is easy to get started, using the power of
-            GatsbyJS"
+          title="Content"
           content="Using modern CSS properties such as grid, this theme is optmised for
             speed and mobile devices. Giving users an excellent experience on
             any device. Future-proofing your product."
           link="/products"
-          linkText="View Products"
+          linkText="View Content "
         />
         <PerksModule>
           <Perk title="The Title" content="The content" />

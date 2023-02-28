@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const BannerModuleStyles = styled.section`
-  height: 100vh;
+  height: 60vh;
   position: relative;
   padding: 30px var(--borderSpacing);
 
@@ -23,11 +23,7 @@ export const BannerModuleStyles = styled.section`
   }
 
   .gradient {
-    background: radial-gradient(
-      at bottom left,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0)
-    );
+    background: #355E3B
   }
 
   .banner__content {

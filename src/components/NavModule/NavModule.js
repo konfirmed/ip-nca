@@ -42,8 +42,8 @@ const NavModule = () => {
       <div className="nav">
         <div className="container">
           <HamburgerStyles
-            initial="closed"
-            animate={isOpen ? "open" : "closed"}
+            initial="open"
+            animate={isOpen ? "open" : "open"}
             onClick={toggleNav}
             onKeyDown={toggleNav}
             aria-label={isOpen ? "Close Menu" : "Open Menu"}
@@ -65,9 +65,8 @@ const NavModule = () => {
 
           {title && (
             <LogoStyles>
+              <img src="/../logos/nca-logo.webp" />
               <Link to="/">
-                {title}
-                <span>.</span>
               </Link>
             </LogoStyles>
           )}

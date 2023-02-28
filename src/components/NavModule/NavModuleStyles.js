@@ -11,11 +11,11 @@ export const NavModuleStyles = styled.nav`
     padding: 20px var(--borderSpacing) 0 var(--borderSpacing);
 
     @media (min-width: 1024px) {
-      padding-top: 50px;
+      padding-top: 20px;
     }
 
     @media (min-width: 1440px) {
-      padding-top: 70px;
+      padding-top: 20px;
     }
   }
 
@@ -136,7 +136,7 @@ export const HamburgerStyles = styled(motion.button)`
   background-color: transparent;
   border: none;
   width: 30px;
-  height: 30px;
+  height: 0px;
   padding: 0;
   cursor: pointer;
   outline: none;
@@ -160,9 +160,7 @@ export const HamburgerStyles = styled(motion.button)`
 `
 
 export const LogoStyles = styled.div`
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: -0.5px;
+  margin-right: 10px
 
   a {
     color: #fff;
@@ -171,7 +169,7 @@ export const LogoStyles = styled.div`
   }
 
   @media (min-width: 1024px) {
-    font-size: 25px;
+  margin-right: 10px
   }
 
   span {
