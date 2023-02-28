@@ -66,7 +66,7 @@ const NavModule = () => {
           {title && (
             <LogoStyles>
             <Link to="/">
-              <img src="/../logos/nca-logo.webp" alt="..."/>
+              <img src="../../nca-logo.webp" alt="logo"/>
             </Link>
             </LogoStyles>
           )}

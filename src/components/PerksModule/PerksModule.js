@@ -21,7 +21,7 @@ const PerksModule = () => {
           content="By using GatsbyJS, the Barcadia site is super-fast out of the box"
         >
           <StaticImage
-            src="../../../static/logos/nca.png"
+            src="../../../static/logos/gatsby-logo.svg"
             alt="Perk Image"
             layout="constrained"
             placeholder="tracedSVG"
@@ -35,7 +35,7 @@ const PerksModule = () => {
           content="Contentful helps you edit your application with ease as your business expands"
         >
           <StaticImage
-            src="../../../static/logos/nca.png"
+            src="../../../static/logos/contentful-logo.svg"
             alt="Perk Image"
             layout="constrained"
             placeholder="tracedSVG"
