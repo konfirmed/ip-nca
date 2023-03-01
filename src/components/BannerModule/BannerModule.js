@@ -1,8 +1,7 @@
 import * as React from "react"
 import { Link, navigate } from "gatsby"
 import { BannerModuleStyles } from "./BannerModuleStyles"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "../Button/Button"
+ import Button from "../Button/Button"
 
 const BannerModule = ({ children, title, subTitle, price, enquire }) => {
   function scrollToArea() {
@@ -12,25 +11,13 @@ const BannerModule = ({ children, title, subTitle, price, enquire }) => {
   return (
     <>
       <BannerModuleStyles>
-        {children ? (
-          children
-        ) : (
-          <StaticImage
-            className="banner__image"
-            imgClassName="banner__image--content"
-            src="../../../static/macbook-color.jpg"
-            alt="Banner Image"
-            layout="fullWidth"
-            placeholder="blurred"
-          />
-        )}
+        {children ? children : ''}
 
         <div className="container">
           <div className="banner__content">
             {title && (
               <h1>
                 {title}
-                <span style={{ color: "var(--primary)" }}>.</span>
               </h1>
             )}
             {subTitle && <h2>{subTitle}</h2>}
